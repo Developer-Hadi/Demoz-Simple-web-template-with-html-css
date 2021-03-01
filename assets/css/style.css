@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body{
+    font-family: 'Akaya Kanadaka', cursive;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -65,6 +72,8 @@ section.service-area h2 {
     background: #008080;
     padding: 20px;
     color: #fff;
+    margin: 20px 0;
+    border-radius: 10px 0 10px 0;
 }
 
 .service-item h4 {
@@ -87,6 +96,11 @@ section.service-area h2 {
     background: #ff6347;
     border: 0;
     text-transform: capitalize;
+}
+.bttn:hover{
+    background-color: #008080;
+    border: 1px solid #fff;
+    color: #fff;
 }
 
 /* About css area */
@@ -130,7 +144,7 @@ section.about-area {
 
 .side-bar ul li a {
     color: #333;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 /* Footer css */
@@ -144,4 +158,79 @@ footer p {
     font-size: 20px;
     font-weight: 700;
 
+}
+
+/* About Page css */
+
+.breadcamb {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.breadcamb h2 {
+    font-size: 60px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 900;
+}
+
+/* Contact Page CSS */
+
+.contact-area {
+    margin: 50px 0;
+}
+
+.contact-area h4 {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.contact-form input {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    outline: 0;
+    border: 1px solid #ddd;
+    color: #ddd;
+}
+
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    height: 80px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    margin: 15px 0;
+}
+
+.contact-form a {
+    display: block;
+    color: #fff;
+}
+
+.contact-address ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-address ul li {
+    font-size: 22px;
+    font-weight: 400;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
 }
